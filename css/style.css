@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    background-color: blue;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-home a img{
+    left: 0;
+    color: rgb(37, 37, 39);
+    width: 70px;
+    padding: 0;
+}
+#menu-home ul {
+    background-color: rgb(37, 37, 39);
+    list-style: none;
+    padding: 0;
+}
+
+#menu-home ul li {
+    background-color: rgb(37, 37, 39);
+    margin-right: 100px;
+    display: inline;
+    text-align: right;
+}
+
+#menu-home ul li a {
+    background-color: rgb(37, 37, 39);
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-home ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
+#servicos {
+    width: 600px;
+    height: 500px;
+    margin: 1px;
+    display: inline-block;
+    float: left;
+    margin-top: 100px;  
+    border: 2px solid black; 
+}
+
+#titulo {
+    text-align: center;
+}
+
+#servicos img {
+    width: 350px;
+}
+
+#informacoes {
+    text-align: center;
+}
+
+
+#informacoes h1{
+    margin:20px;
+    text-align: center;
+}
+
+
+#informacoes p{
+    font-size: 25px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,186,0,1) 0%, rgba(0,254,255,1) 100%);
+    border-radius: 10px;
+}
+
+#parceiros div{
+    margin-top: 80px;
+}
+#parceiros img{
+  margin: 50px;
+
+}
+
+#contato-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#contato-button {
+    background-color:white;
+    border-radius: 5px;
+    width: 90px;
+    display: block;
+    margin-top: 30px;
+    height: 40px;  
+  
+}
+
+#campos {
+  width: 300px; 
+  text-align: center; 
+  border-radius: 5px;
+  margin: 10px;
+  background-color: white;
+}
+
+
+#localizacao {
+  font-size: 20px;  
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
